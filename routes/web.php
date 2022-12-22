@@ -7,3 +7,4 @@ use App\Http\Controllers\MainController;
 
 
 Route::get('/home', [MainController::Class, 'HomeView'])->name("home");
+Route::get('/menu', [MainController::Class, 'MenuView'])->name("menu");
